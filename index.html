@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
-
+  <script src="main.js"></script>
   <title>Frontend Mentor | Calculator app</title>
 
 </head>
@@ -21,29 +21,36 @@
 
 
     <div class="tela">
-      <p class="Resul">12,5</p>
+      <p id="Resultado"></p>
     </div>
     <div class="keypad">
       <div class="botoes-grid">
-        <div class="grid-item">7</div>
-        <div class="grid-item">8</div>
-        <div class="grid-item">9</div>
-        <div class="grid-item-del">DEL</div>
-        <div class="grid-item">4</div>
-        <div class="grid-item">5</div>
-        <div class="grid-item">6</div>
-        <div class="grid-item">+</div>
-        <div class="grid-item">1</div>
-        <div class="grid-item">2</div>
-        <div class="grid-item">3</div>
-        <div class="grid-item">-</div>
-        <div class="grid-item">.</div>
-        <div class="grid-item">0</div>
-        <div class="grid-item">/</div>
-        <div class="grid-item">X</div>
-        <div class="grid-item-1">RESET</div>
-        <div class="grid-item-2">=</div>
+        <button class="grid grid-item-7" onclick="insert('7')" >7</button>
+        <button class="grid grid-item-8" onclick="insert('8')">8</button>
+        <button class="grid grid-item-9" onclick="insert('9')">9</button>
 
+        <button class="grid grid-item-del" onclick="DEL()">DEL</button>
+
+        <button class="grid grid-item-4" onclick="insert('4')">4</button>
+        <button class="grid grid-item-5" onclick="insert('5')">5</button>
+        <button class="grid grid-item-6" onclick="insert('6')">6</button>
+
+
+        <button class="grid grid-item-plus"onclick="insert('+')">+</button>
+
+        <button class="grid grid-item-1" onclick="insert('1')">1</button>
+        <button class="grid grid-item-2" onclick="insert('2')">2</button>
+        <button class="grid grid-item-3" onclick="insert('3')">3</button>
+
+        <button class="grid grid-item-minus" onclick="insert('-')">-</button>
+
+        <button class="grid grid-item-dot" onclick="insert('.')">.</button>
+        <button class="grid grid-item-0" onclick="insert('0')">0</button>
+
+        <button class="grid grid-item-button" onclick="insert('/')">/</button>
+        <button class="grid grid-item-multi" onclick="insert('*')">X</button>
+        <button class="grid grid-item-reset" onclick="clean()">RESET</button>
+        <button class="grid grid-item-equal" onclick="conta()">=</button>
       </div>
 
 

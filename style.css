@@ -51,7 +51,7 @@ body {
 
 }
 
-.grid-item {
+.grid {
     background-color: hsl(30, 25%, 89%);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
@@ -61,7 +61,7 @@ body {
     border-bottom: 2px solid hsl(28, 16%, 65%);
 }
 
-.grid-item-1 {
+.grid-item-reset {
     color: white;
     background-color: hsl(225, 21%, 49%);
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -73,7 +73,7 @@ body {
     border-radius: 20px;
 }
 
-.grid-item-2 {
+.grid-item-equal {
     color: white;
 
     background-color: hsl(6, 70%, 34%);
@@ -94,4 +94,28 @@ body {
     border-radius: 20px;
     color: white;
 
+}
+
+/* ao clicar */
+
+.grid:active {
+    background-color: hsl(30, 8%, 75%);
+}
+.grid-item-del:active {
+    background-color: hsl(225, 22%, 36%);
+}
+
+.grid-item-reset:active {
+    background-color: hsl(225, 22%, 36%);
+}
+
+.grid-item-equal:active {
+    background-color: hsl(6, 69%, 25%);
+}
+
+
+#Resultado {
+    font-size: 30px;
+    padding-top: 25px;
+    text-align: right;
 }
