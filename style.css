@@ -6,7 +6,7 @@ body {
 
 .Calculadora {
     width: 400px;
-    height: 600px;
+    height: 650px;
     background-color: hsl(222, 26%, 31%);
     margin: 0 auto;
     border-radius: 10px;
@@ -27,7 +27,7 @@ body {
     margin-left: 15px;
     background-color: hsl(223, 31%, 20%);
     width: 370px;
-    height: 445px;
+    height: 460px;
     border-radius: 5px;
 }
 
@@ -116,6 +116,6 @@ body {
 
 #Resultado {
     font-size: 30px;
-    padding-top: 25px;
+    padding-top: px;
     text-align: right;
 }
