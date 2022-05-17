@@ -101,6 +101,7 @@ body {
 .grid:active {
     background-color: hsl(30, 8%, 75%);
 }
+
 .grid-item-del:active {
     background-color: hsl(225, 22%, 36%);
 }
@@ -115,7 +116,8 @@ body {
 
 
 #Resultado {
-    font-size: 30px;
-    padding-top: px;
+    font-size: 40px;
+    padding-top: 25px;
+    padding-right: 10px;
     text-align: right;
 }

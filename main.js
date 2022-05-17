@@ -1,30 +1,60 @@
-/* Inserir digito */
+/* Inserir Digito */
 function insert(num) {
     var numero = document.getElementById('Resultado').innerHTML;
-    document.getElementById('Resultado').innerHTML =  numero + num;
+    document.getElementById('Resultado').innerHTML = numero + num;
 }
+
+
+
 
 /* Limpar digitos */
 
 function clean() {
-    document.getElementById('Resultado').innerHTML= "";
+    document.getElementById('Resultado').innerHTML = "";
 }
 
 /* Apagar digito */
 
-function DEL(){
+function DEL() {
     var resultado = document.getElementById('Resultado').innerHTML;
-    document.getElementById('Resultado').innerHTML = resultado.substring(0,resultado.length -1)
+    document.getElementById('Resultado').innerHTML = resultado.substring(0, resultado.length - 1)
 }
 
 /* Faz a operação */
 
-function conta() 
-{
+function conta() {
     var resultado = document.getElementById('Resultado').innerHTML;
-    if(resultado) 
-    {
+    if (resultado) {
         document.getElementById('Resultado').innerHTML = eval(resultado);
     }
-    else alert ("erro")
+    else alert("erro")
+}
+
+
+
+// soma
+
+function Soma() {
+
+    var x;
+    var y;
+    var resultado = x + y;
+}
+
+function subtração() {
+    var x;
+    var y;
+    var resultado = x - y;
+}
+
+function multiplicação() {
+    var x;
+    var y;
+    var resultado = x * y;
+}
+
+function divisão() {
+    var x;
+    var y;
+    var resultado = x / y;
 }
