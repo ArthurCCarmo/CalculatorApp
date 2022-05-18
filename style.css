@@ -1,7 +1,7 @@
 body {
     font-family: 'League-Spartan', sans-serif;
     font-weight: 700;
-    color: white;
+    background-color: hsl(221, 26%, 24%);
 }
 
 .Calculadora {
@@ -10,6 +10,8 @@ body {
     background-color: hsl(222, 26%, 31%);
     margin: 0 auto;
     border-radius: 10px;
+    color: white;
+
 }
 
 .tela {
@@ -19,6 +21,9 @@ body {
     height: 70px;
     margin: 0 auto;
     border-radius: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
 
 }
 
@@ -38,6 +43,8 @@ body {
 
 .Resul {
     font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .botoes-grid {
@@ -120,4 +127,9 @@ body {
     padding-top: 25px;
     padding-right: 10px;
     text-align: right;
+    color: white;
+    max-width: 550px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

@@ -5,8 +5,6 @@ function insert(num) {
 }
 
 
-
-
 /* Limpar digitos */
 
 function clean() {
@@ -26,35 +24,14 @@ function conta() {
     var resultado = document.getElementById('Resultado').innerHTML;
     if (resultado) {
         document.getElementById('Resultado').innerHTML = eval(resultado);
+        if (resultado == "Infinity") {
+            alert("Impossível dividir por 0")
+        }
     }
-    else alert("erro")
+    if (resultado == "") {
+        alert("Campo vazio")
+    }
+
 }
 
 
-
-// soma
-
-function Soma() {
-
-    var x;
-    var y;
-    var resultado = x + y;
-}
-
-function subtração() {
-    var x;
-    var y;
-    var resultado = x - y;
-}
-
-function multiplicação() {
-    var x;
-    var y;
-    var resultado = x * y;
-}
-
-function divisão() {
-    var x;
-    var y;
-    var resultado = x / y;
-}
