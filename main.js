@@ -23,15 +23,19 @@ function DEL() {
 function conta() {
     var resultado = document.getElementById('Resultado').innerHTML;
     if (resultado) {
+
         document.getElementById('Resultado').innerHTML = eval(resultado);
-        if (resultado == "Infinity") {
-            alert("Impossível dividir por 0")
-        }
+        let valida = false
+        valida = /0+/g
     }
+
     if (resultado == "") {
         alert("Campo vazio")
     }
 
+    if (valida = true) {
+        alert("Impossível dividir por 0")
+        clean()
+    }
+
 }
-
-
