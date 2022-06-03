@@ -20,22 +20,16 @@ function DEL() {
 
 /* Faz a operação */
 
+
+
 function conta() {
     var resultado = document.getElementById('Resultado').innerHTML;
-    if (resultado) {
-
+    if (resultado != isNaN) {
         document.getElementById('Resultado').innerHTML = eval(resultado);
-        let valida = false
-        valida = /0+/g
     }
 
-    if (resultado == "") {
-        alert("Campo vazio")
-    }
-
-    if (valida = true) {
-        alert("Impossível dividir por 0")
-        clean()
-    }
+    //if (resultado = Number.POSITIVE_INFINITY || Number.NEGATIVE_INFINITY) {
+    //alert("a")
+    //}
 
 }
