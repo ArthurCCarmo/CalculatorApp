@@ -24,7 +24,7 @@ function DEL() {
 
 function conta() {
     var resultado = document.getElementById('Resultado').innerHTML;
-    if (resultado != isNaN) {
+    if (resultado) {
         document.getElementById('Resultado').innerHTML = eval(resultado);
     }
 
